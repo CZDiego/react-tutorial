@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-import Counter from "./components/Counter";
+import Counter from "./components/State/Counter";
+import FunctionClick from "./components/EventHandling/FunctionClick";
+import ClassClick from "./components/EventHandling/ClassClick";
 
 function App() {
   return (
@@ -14,6 +16,14 @@ function App() {
 
       {/*<Message/>*/}
       <Counter/>
+
+      <br/>
+
+      <FunctionClick/>
+
+      <br/>
+
+      <ClassClick/>
 
     </div>
   );
