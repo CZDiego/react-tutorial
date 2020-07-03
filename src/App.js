@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Message from "./components/Message";
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
         <p>This is children #3</p>
       </Greet>*/}
 
-      <Message/>
+      {/*<Message/>*/}
+      <Counter/>
 
     </div>
   );
