@@ -1,10 +1,6 @@
 import React from 'react';
 import './App.css';
-import Counter from "./components/state/Counter";
-import FunctionClick from "./components/eventHandling/FunctionClick";
-import ClassClick from "./components/eventHandling/ClassClick";
-import EventBind from "./components/eventHandling/EventBind";
-import ParentComponent from "./components/methods/ParentComponent";
+import UserGreeting from "./components/conditionalRendering/UserGreeting";
 
 function App() {
   return (
@@ -17,7 +13,7 @@ function App() {
       </Greet>*/}
 
       {/*<Message/>*/}
-      <Counter/>
+      {/*<Counter/>
 
       <br/>
 
@@ -33,7 +29,9 @@ function App() {
 
       <br/>
 
-      <ParentComponent/>
+      <ParentComponent/>*/}
+
+      <UserGreeting/>
 
     </div>
   );
