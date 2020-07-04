@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import UserGreeting from "./components/conditionalRendering/UserGreeting";
+import PersonList from "./components/lists/PersonList";
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
 
       <ParentComponent/>*/}
 
-      <UserGreeting/>
+      <PersonList/>
 
     </div>
   );
