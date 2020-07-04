@@ -3,6 +3,7 @@ import './App.css';
 import Counter from "./components/State/Counter";
 import FunctionClick from "./components/EventHandling/FunctionClick";
 import ClassClick from "./components/EventHandling/ClassClick";
+import EventBind from "./components/EventHandling/EventBind";
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
       <br/>
 
       <ClassClick/>
+
+      <br/>
+
+      <EventBind/>
 
     </div>
   );
