@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Counter from "./components/State/Counter";
-import FunctionClick from "./components/EventHandling/FunctionClick";
-import ClassClick from "./components/EventHandling/ClassClick";
-import EventBind from "./components/EventHandling/EventBind";
-import ParentComponent from "./components/Methods/ParentComponent";
+import Counter from "./components/state/Counter";
+import FunctionClick from "./components/eventHandling/FunctionClick";
+import ClassClick from "./components/eventHandling/ClassClick";
+import EventBind from "./components/eventHandling/EventBind";
+import ParentComponent from "./components/methods/ParentComponent";
 
 function App() {
   return (
