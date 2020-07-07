@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import PersonList from "./components/lists/PersonList";
+import Stylesheet from "./components/Style/StyleSheet";
+import Inline from "./components/Style/Inline";
 
 function App() {
   return (
@@ -32,6 +34,10 @@ function App() {
       <ParentComponent/>*/}
 
       <PersonList/>
+
+      <Stylesheet primary={true}/>
+
+      <Inline/>
 
     </div>
   );
