@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import PersonList from "./components/lists/PersonList";
-import Stylesheet from "./components/Style/StyleSheet";
-import Inline from "./components/Style/Inline";
+import Stylesheet from "./components/style/StyleSheet";
+import Inline from "./components/style/Inline";
 
 function App() {
   return (
