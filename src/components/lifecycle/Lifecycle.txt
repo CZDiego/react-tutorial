@@ -1,0 +1,33 @@
+4 stages
+mounting
+update
+unMounting
+errorHandler
+
+Mounting:
+- Constructor:
+    - set state
+    - bing event handlers
+    - NO HTTP CALLS (NO SIDE EFFECTS)
+- getDerivedStateFromProps
+    - rarely used function
+    - set state by returning an object, normally depend on props
+    - NO HTTP CALLS (NO SIDE EFFECTS)
+- render
+    - pure function (for the same props and state, should return the same UI)
+    - only REQUIRED method
+    - DO NOT CHANGE DOM (NO SIDE EFFECTS)
+    - NO HTTP CALLS (NO SIDE EFFECTS)
+- componentDidMount
+    - called only once
+    - called after component and children have been rendered
+    - perfect for side effects, HTTP calls, or change DOM
+
+UPDATING:
+- getDerivedStateFromProps(props, state)        //rarely used
+- shouldComponentUpdate(nextProps, nextState)   //rarely used
+- render()
+- getSnapshotBeforeUpdate(prevProps, prevState) //rarely used
+- componentDidUpdate(prevProps, prevState, snapshot) //Perfect for side effects
+
+componentWillUnmount()
