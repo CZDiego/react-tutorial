@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import ParentComp from "./components/pure/ParentComp";
+import RefsDemo from "./components/refs/RefsDemo";
 
 function App() {
   return (
     <div className="App">
 
-      <ParentComp/>
+      <RefsDemo/>
 
     </div>
   );
