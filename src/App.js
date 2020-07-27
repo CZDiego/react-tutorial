@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import RefsDemo from "./components/refs/RefsDemo";
+import RefForwardingParentInput from "./components/refs/RefForwardingParentInput";
 
 function App() {
   return (
     <div className="App">
 
-      <RefsDemo/>
+      <RefForwardingParentInput/>
 
     </div>
   );
