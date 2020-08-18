@@ -1,22 +1,16 @@
 import React from 'react';
 import './App.css';
-import Hero from "./components/errorBoundary/Hero";
-import ErrorBoundary from "./components/errorBoundary/ErrorBoundary";
+import ClickCounter from "./components/higherOrderComponents/ClickCounter";
+import HoverCounter from "./components/higherOrderComponents/HoverCounter";
 
 function App() {
 
-  const heros = [
-    "Batman",
-    "SuperMan",
-    "Joker"
-  ];
   return (
     <div className="App">
 
-      {heros.map((hero, index) => {
-        return <ErrorBoundary key={index}><Hero heroName={hero}/></ErrorBoundary>
-      })}
+      <ClickCounter name="Diego"/>
 
+      <HoverCounter name="Diego"/>
     </div>
   );
 }
