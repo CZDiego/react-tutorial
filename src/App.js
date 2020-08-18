@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import RefForwardingParentInput from "./components/refs/RefForwardingParentInput";
+import PortalDemo from "./components/portal/PortalDemo";
 
 function App() {
   return (
     <div className="App">
-
-      <RefForwardingParentInput/>
-
+      <PortalDemo/>
     </div>
   );
 }
